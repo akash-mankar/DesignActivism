@@ -27,6 +27,6 @@ Look at Distribution by states US.png in the same folder to see how the color gr
 
 ---
 ### Additional files
--DistributionByStates.mp4 is a 10 second video showing color coded distrbution of sentiment across US.
--Distribution by Country.png - Already included in spreadsheet.
--Distribution by states US.png - Already included in spreadsheet.
+- DistributionByStates.mp4 is a 10 second video showing color coded distrbution of sentiment across US.
+- Distribution by Country.png - Already included in spreadsheet.
+- Distribution by states US.png - Already included in spreadsheet.
