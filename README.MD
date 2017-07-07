@@ -5,7 +5,6 @@ This is a public dataset repository for the paper [Design activism for minimum w
 ---
 ### What is in this repository?
 - README.md
-- LICENSE.md
 - Data
 
 ---
