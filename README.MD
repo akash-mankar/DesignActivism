@@ -6,6 +6,7 @@ This is a public dataset repository for the paper [Design activism for minimum w
 ### What is in this repository?
 - README.md
 - Data
+- API to retrieve location based minimum wage
 
 ---
 ### How to access the data?
@@ -29,3 +30,12 @@ Look at Distribution by states US.png in the same folder to see how the color gr
 - DistributionByStates.mp4 is a 10 second video showing color coded distrbution of sentiment across US.
 - Distribution by Country.png - Already included in spreadsheet.
 - Distribution by states US.png - Already included in spreadsheet.
+
+---
+### API to retrieve location based minimum wage
+- The python script "<b>LocationMinWage.py</b>" located inside folder <b> Min-Wage Retrieval API</b> can be used by crowdsourcing requesters to obtain location based minimum wage
+- <b>Source</b>: http://en.wikipedia.org/wiki/List_of_minimum_wages_by_country
+- <b>Usage</b>: python LocationtoMinWage.py <country_name>
+ - If country name has a space - Eg: United States, specify it in this format - United\ States
+- The hourly wage (in US$) is obtained.
+- Please Note that this version currently does not handle wikipedia format changes
