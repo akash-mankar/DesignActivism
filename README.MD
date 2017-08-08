@@ -33,9 +33,4 @@ Look at Distribution by states US.png in the same folder to see how the color gr
 
 ---
 ### Min-Wage Retrieval API
-- The python script "<b>LocationMinWage.py</b>" located inside folder <b> Min-Wage Retrieval API</b> can be used by crowdsourcing requesters to obtain location based minimum wage
-- <b>Source</b>: http://en.wikipedia.org/wiki/List_of_minimum_wages_by_country
-- <b>Usage</b>: python LocationtoMinWage.py <country_name>
- - If country name has a space - Eg: United States, specify it in this format - United\ States
-- The hourly wage (in US$) is obtained.
-- Please Note that this version currently does not handle wikipedia format changes
+- Refer here: [API details](https://github.com/riddhi89/DesignActivism/blob/api-enhancements/location_based_min_wage/README.rst)
