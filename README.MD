@@ -33,4 +33,4 @@ Look at Distribution by states US.png in the same folder to see how the color gr
 
 ---
 ### Min-Wage Retrieval API
-- Refer here: [API details](https://github.com/riddhi89/DesignActivism/blob/api-enhancements/location_based_min_wage/README.rst)
+- Refer here: [API details](https://github.com/akash-mankar/DesignActivism/blob/master/location_based_min_wage/README.rst)
