@@ -1,0 +1,31 @@
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> API for Location based minimum wage</title><style type="text/css">body{display:block;margin:40px
+auto;max-width:650px;line-height:1.6;font-size:18px;font-face:verdana;color:#444;padding:0
+10px}h1,h2,h3{line-height:1.2}</style></head><body>
+
+<h1>API for Location based minimum wage</h1>
+<p> The purpose of this API is to retrieve the hourly minimum wage (in US$) for a given country. Source for country names/hourly minimum wage rates (US$): <a href = https://en.wikipedia.org/wiki/List_of_minimum_wages_by_country>
+
+<h2>Prerequisites</h2>
+Make sure to have the following installed on your machine.
+<ul>
+<li>Python 2.7</li>
+<li>Python Packages: <a href = https://pypi.python.org/pypi/bs4> bs4 </a></li>
+</ul>
+
+<h2>Usage Guidelines</h2>
+<ul>
+<li>Run the script <a href = https://github.com/akash-mankar/DesignActivism/blob/master/location_based_min_wage/location_based_min_wage/minwage.py><b>minwage.py</b></a>under directory <a href = https://github.com/akash-mankar/DesignActivism/tree/master/location_based_min_wage><b>location_based_min_wage </b> </a> :
+<p> python minwage.py --country 'India' </p>
+<li>The country name can be in uppercase or lowercase, but spelt as specified in the <a href= https://en.wikipedia.org/wiki/List_of_minimum_wages_by_country>source </a>. <b>Example:</b> 'United States' and NOT 'UnitedStates' (without space).
+<li>For tests, from the current folder, run:
+<p> python -m unittest discover -b -v
+</ul>
+
+<h2> NOTE</h2>
+
+The wikipedia source format changes are not supported. The currently supported format - wikilist.html is included under the location_based_min_wage directory.
+</body>
+</html>
